@@ -1,4 +1,3 @@
-
 /*
 This class returns :
 Day of the week,
@@ -10,7 +9,7 @@ Sum of even numbers between 12 and 103
 public class TryingMethods {
     public static void main(String[] args) {
         System.out.println("Assignment 1");
-        daysOfTheWeek(7);
+        daysOfTheWeek(3);
     }
 
     static void daysOfTheWeek(int day) {
