@@ -10,7 +10,8 @@ public class TryingMethods {
         System.out.println("Assignment 1");
         sumOfEvenNumber();
         TryingMethods weekly = new TryingMethods();
-        weekly.daysOfTheWeek(4);
+        String day = weekly.daysOfTheWeek(3);
+        System.out.println(day);
     }
     
     public static void sumOfEvenNumber() {
