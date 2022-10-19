@@ -8,22 +8,11 @@ Sum of even numbers between 12 and 103
 public class TryingMethods {
     public static void main(String[] args) {    
         System.out.println("Assignment 1");
-        sumOfEvenNumber();
         TryingMethods weekly = new TryingMethods();
-        String day = weekly.daysOfTheWeek(3);
+        String day = weekly.daysOfTheWeek(2);
         System.out.println(day);
     }
     
-    public static void sumOfEvenNumber() {
-        int sum = 0;
-        for(int i = 12; i <= 103; i++) {
-            if(i % 2 == 0) {
-                sum += i;          
-            }   
-        }
-        System.out.println("Sum of even numbers between 12 and 103: " + sum);
-    }
-
     public String daysOfTheWeek(int a) {
         String day = "";
         switch (a) {
