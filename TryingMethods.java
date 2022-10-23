@@ -1,10 +1,6 @@
 /*
-This class returns :
-Day of the week,
-Print message to console,
-Sum of all even numbers less than 1000,
-Sum of even numbers between 12 and 103
-*/
+First JAVA Assignment
+ */
 import java.util.InputMismatchException; // import the exception catching class
 import java.util.Scanner; // import the scanner class
 
@@ -20,6 +16,10 @@ public class TryingMethods {
         System.out.println("The Day is: "+ day);
     }
     
+
+    /*
+    This class returns day of the week,
+    */
     public String daysOfTheWeek(int a) {
         String day = "";
         switch (a) {
