@@ -22,7 +22,12 @@ public class TryingMethods {
 
         //Output for dayOfTheWeek
         System.out.println("The Day is: "+ day);
+
+        //Output for Sum of Even Number
         System.out.println("Sum of even number between 12 and 103: "+ sum);
+
+        //Output Sum of Numbers less than 1000
+        sumNumber();
     }
     
 
@@ -68,6 +73,18 @@ public class TryingMethods {
             sum += i;
         }
         return sum;
+    }
+
+    public static void sumNumber() {
+        int i = 0;
+        int sum = 0;
+        while (i <= 1000) {
+            //Iterating through i
+            i++;
+            //Calculating Sum
+            sum += i;
+        }
+        System.out.println("Sum of Numbers Less than 1000: " + sum);
     }
 
         
