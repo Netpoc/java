@@ -18,9 +18,11 @@ public class TryingMethods {
         // Creating and Insance of dayOfTheWeek()
         TryingMethods weekly = new TryingMethods();
         String day = weekly.daysOfTheWeek(dayNumber);
+        int sum = weekly.sumOfEvenNumbers();
 
         //Output for dayOfTheWeek
         System.out.println("The Day is: "+ day);
+        System.out.println("Sum of even number between 12 and 103: "+ sum);
     }
     
 
@@ -56,6 +58,16 @@ public class TryingMethods {
                 break;
         }
         return day;
+    }
+
+    //This method returns sum of even number between 12 and 103
+
+    public int sumOfEvenNumbers(){
+        int sum = 0;
+        for(int i = 12; i <= 103; i++) {
+            sum += i;
+        }
+        return sum;
     }
 
         
