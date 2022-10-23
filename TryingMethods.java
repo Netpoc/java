@@ -1,13 +1,11 @@
 /*
-This class returns :
-Day of the week,
-Print message to console,
-Sum of all even numbers less than 1000,
-Sum of even numbers between 12 and 103
+First JAVA assignment
 */
+
 public class TryingMethods {
     public static void main(String[] args) {    
         System.out.println("Assignment 1");
+
         TryingMethods result = new TryingMethods();
         int show = result.sumOfEvenNumber(0);
         System.out.println("Sum of even numbers between 12 and 103: " + show);
@@ -22,4 +20,7 @@ public class TryingMethods {
         }
         return sum;
     }
+        
+    }
+    
 }
