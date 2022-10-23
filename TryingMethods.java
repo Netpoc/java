@@ -1,12 +1,15 @@
 /*
+
 First JAVA Assignment
  */
 import java.util.InputMismatchException; // import the exception catching class
 import java.util.Scanner; // import the scanner class
 
+
 public class TryingMethods {
     public static void main(String[] args) {    
         System.out.println("Assignment 1");
+
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter day Number:");
@@ -49,6 +52,9 @@ public class TryingMethods {
                 break;
         }
         return day;
+    }
+
+        
     }
 
 }
