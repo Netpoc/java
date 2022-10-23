@@ -5,12 +5,19 @@ Print message to console,
 Sum of all even numbers less than 1000,
 Sum of even numbers between 12 and 103
 */
+import java.util.InputMismatchException; // import the exception catching class
+import java.util.Scanner; // import the scanner class
+
 public class TryingMethods {
     public static void main(String[] args) {    
         System.out.println("Assignment 1");
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter day Number:");
+        int dayNumber = scanner.nextInt();
         TryingMethods weekly = new TryingMethods();
-        String day = weekly.daysOfTheWeek(2);
-        System.out.println(day);
+        String day = weekly.daysOfTheWeek(dayNumber);
+        System.out.println("The Day is: "+ day);
     }
     
     public String daysOfTheWeek(int a) {
