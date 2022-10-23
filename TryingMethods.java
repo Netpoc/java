@@ -10,7 +10,7 @@ public class TryingMethods {
         System.out.println("Assignment 1");
         TryingMethods result = new TryingMethods();
         int show = result.sumOfEvenNumber(0);
-        System.out.println("Sum of even numbers between: " + show);
+        System.out.println("Sum of even numbers between 12 and 103: " + show);
     }
     
     public int sumOfEvenNumber(int a) {
