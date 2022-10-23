@@ -1,5 +1,3 @@
-import javax.xml.crypto.dsig.keyinfo.RetrievalMethod;
-
 /*
 This class returns :
 Day of the week,
