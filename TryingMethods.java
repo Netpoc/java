@@ -1,6 +1,7 @@
 /*
 First JAVA Assignment
  */
+import java.text.SimpleDateFormat;
 import java.util.Scanner; // import the scanner class
 
 
@@ -64,12 +65,12 @@ public class TryingMethods {
         }
         return day;
     }
-
+    
     //This method returns sum of even number between 12 and 103
 
     public int sumOfEvenNumbers(){
         int sum = 0;
-        for(int i = 12; i <= 103; i++) {
+        for(int i = 12; i <= 103; i += 2) {
             sum += i;
         }
         return sum;
