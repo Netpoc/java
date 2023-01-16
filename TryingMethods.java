@@ -68,7 +68,7 @@ public class TryingMethods {
     
     //This method returns sum of even number between 12 and 103
 
-    public int sumOfEvenNumbers(){
+    int sumOfEvenNumbers(){
         int sum = 0;
         for(int i = 12; i <= 103; i += 2) {
             sum += i;
@@ -76,7 +76,7 @@ public class TryingMethods {
         return sum;
     }
 
-    public static void sumNumber() {
+    static void sumNumber() {
         int i = 0;
         int sum = 0;
         while (i <= 1000) {
